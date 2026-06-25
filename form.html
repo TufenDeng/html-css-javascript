@@ -1,0 +1,50 @@
+<!-- form(最简单的表单)，用来接收用户输入数据的区域 -->
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Experiment Appointment System
+        </title>
+    </head>
+    <body>
+        <h1>Experiment Appointment Form</h1>
+        <form>
+            <h2>Experiment lab Appointment</h2>
+            <label>姓名：</label>
+            <input type="text" placeholder="请输入姓名" name="username" required><!--后台靠name属性来识别-->
+            <br>
+            <label>日期：</label>
+            <input type="date" placeholder="请输入预约日期" name="date" required><!--placeholder就是提示词，点击后消失-->
+            <br>
+            <label>时间：</label>
+            <input type="datetime" placeholder="请输入时间" name="time" required>
+
+            <br><br>
+
+            <label>实验类型</label>
+            <select><!--下拉框，点击后看到更多信息-->
+                <option>pcl实验</option>
+                <option>动物实验</option>
+                <option>细胞实验</option>
+                <option>有机合成</option>
+            </select>
+            <br>
+            <label>请详细阅读一下规则：</label>
+            <br>
+            <input type="checkbox">1<br>
+            <input type="checkbox">2<br>
+            <input type="checkbox">3
+            <br>
+            <label>输入备注：</label><br>
+            <!--超大文本区域-->
+            <textarea>
+            </textarea>
+            <br>
+            <button>
+                <!--可以点击的按钮-->
+                提交
+            </button>
+        </form>
+    </body>
+ </html>
