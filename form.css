@@ -1,0 +1,19 @@
+body{
+    background-color: #f5f5f5;
+    font-family: Arial;
+}
+h1{
+    color:#2563EB
+}
+input{
+    width: 300px;
+}
+button{
+    background-color:#22C55E;
+    color:white;
+    font-size:18px;
+}
+label{
+    color:bisque
+}
+

@@ -1,0 +1,54 @@
+选择器：
+    行内：<h1 style="color:#f5f5f5;"></h1>
+    html文件内部：<style>
+                    body{
+                        background-color:#fff;
+                    }
+                </style>
+    外部css文件，只需要在html加上<head><link rel="stylesheet" href="css文件名/路径"></head>
+
+常用类型
+│
+├── 字体（font）
+│   ├── font-size
+│   ├── font-family
+│   ├── font-weight
+│   └── font-style
+│
+├── 文字（text）
+│   ├── color
+│   ├── text-align（对齐）
+│   └── line-height（行高）
+│
+├── 背景（background）
+│   ├── background-color
+│   └── background-image
+│
+├── 大小（size）
+│   ├── width
+│   └── height
+│
+├── 边框（border）
+│   ├── border
+│   └── border-radius（圆角）
+│
+└── 布局
+    ├── margin（外边距）
+    ├── padding（内边距）
+    ├── display
+    └── flex
+----阴影
+    |---box-shadow
+
+┌──────────────────────────────┐
+│           margin             │
+│  ┌────────────────────────┐  │
+│  │       border           │  │
+│  │  ┌──────────────────┐  │  │
+│  │  │    padding       │  │  │
+│  │  │ ┌──────────────┐ │  │  │
+│  │  │ │   content    │ │  │  │
+│  │  │ └──────────────┘ │  │  │
+│  │  └──────────────────┘  │  │
+│  └────────────────────────┘  │
+└──────────────────────────────┘
